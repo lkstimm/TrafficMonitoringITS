@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 from typing import List, Tuple, Callable, Optional
 
+Print ("hello world, this is a bug")
+
 class ROIDrawer:
     def __init__(self, window_name: str = "ROI Drawer"):
         self.window_name = window_name
